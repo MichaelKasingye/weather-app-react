@@ -24,7 +24,7 @@ function Home(props) {
         setWeather(result);
         // setCity("");
       })
-      .catch((err) => console.log(err));
+      .catch((err) => err);
   }
 
   return (
