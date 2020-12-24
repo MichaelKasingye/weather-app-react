@@ -1,0 +1,14 @@
+.container {
+  margin: auto auto;
+  max-width: 1500px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0d1117;
+}
+.search {
+  margin: 1rem;
+  color: #58a6ff;
+  display: flex;
+}

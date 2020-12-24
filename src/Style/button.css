@@ -1,0 +1,38 @@
+.button {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.3s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.button {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.button:focus {
+  outline: none;
+}
+button {
+  background-color: white;
+  border: none;
+  border-radius: 7rem;
+  margin-top: 1px;
+  padding: 5px;
+}
+button:hover {
+  background-color: #c3cbd4;
+}
+button:active {
+  background-color: #f9826c;
+}

@@ -1,0 +1,42 @@
+.weather_body {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.6s;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.weather_body {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin: 1rem;
+  padding: 5px;
+  color: #c3cbd4;
+}
+.image {
+  width: 8rem;
+  margin: 1rem;
+}
+.description {
+  margin: 1rem;
+  color: #bdd1d9;
+}
+
+.temps:nth-child(odd) {
+  border-bottom: 2px solid #f9826c;
+}
+.temps:nth-child(even) {
+  border-bottom: 2px solid #58a6ff;
+}
