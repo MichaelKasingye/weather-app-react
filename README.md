@@ -8,6 +8,8 @@ This is a weather forecast app
 
 ### Application built in
 1. React
+2. jsx
+3. css
 4. Netlify deployment
 
 
