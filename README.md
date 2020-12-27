@@ -4,12 +4,11 @@
 <a href="https://weatherforcastapp.netlify.app/">Weather Web App Site </a>
 
 ### Description
-This is a weather forecast app
+A weather application that can identify the weather condition of a requested city.
 
 ### Application built in
-1. React
-2. jsx
-3. css
-4. Netlify deployment
+1. React javaScript for the UI and UX 
+2. CSS for the application design
+3. Netlify for the deployment
 
 
